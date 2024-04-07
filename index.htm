@@ -78,6 +78,11 @@
         </nav>
       </div>
       <div id="task-body-div">
+       
+          <ul id="tasklist">
+
+          </ul>
+       
         <div id="new-task-div">
           <input id="new-task-input" type="text" placeholder="Add New Task" />
           <div
@@ -88,7 +93,7 @@
               width: 100%;
             "
           >
-            <button onclick="addNewTask()" id="task-cancel-btn" type="button">
+            <button onclick="addTaskBtn()" id="task-cancel-btn" type="button">
               Cancel
             </button>
             <button id="task-add-btn" type="button">Add</button>
@@ -98,7 +103,7 @@
       <div id="footer-div">
         <div class="footer-child"></div>
         <div class="footer-child">
-          <button id="new-add-btn" onclick="addtask()" type="submit">
+          <button id="new-add-btn" onclick="addTaskBtn()" type="submit">
             <p id="new-add-btn-p">+</p>
           </button>
         </div>
