@@ -9,10 +9,9 @@ body {
 }
 
 #navbar {
-
-    display: flex,;
+    display: flex;
     justify-content: space-between;
-    padding-left: 1rem;
+    padding-left: 1rem; 
     padding-right: 1rem;
     align-items: center;
     text-align: center;
@@ -26,7 +25,6 @@ body {
     font-weight: 900;
     background-color: aliceblue;
     color: rgb(22, 112, 202);
-    ;
     width: 70px;
     padding: 0.3rem;
     border-radius: 8px;
